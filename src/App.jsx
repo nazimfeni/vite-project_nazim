@@ -5,7 +5,6 @@ import Footer from './component/Footer';
 import ContactForm from './component/ContactForm';
 
 
-
 const App = () => {
   return (
     <div>
@@ -13,6 +12,7 @@ const App = () => {
       <Hero />
       <ContactForm />
       <Footer />
+     
     </div>
   );
 };
