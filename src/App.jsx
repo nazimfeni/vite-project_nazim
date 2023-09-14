@@ -1,20 +1,6 @@
-import React from 'react';
-import Header from './component/Header';
-import Hero from './component/Hero';
-import Footer from './component/Footer';
-import ContactForm from './component/ContactForm';
-// nazim
-
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <Hero />
-      <ContactForm />
-      <Footer />
-     
-    </div>
-  );
+  let marks = 90;
+  return <div>{marks > 80 ? <h1>A+</h1> : <h1>B+</h1>}</div>;
 };
 
 export default App;
